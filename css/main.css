@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -11,11 +12,20 @@ body {
   color: #2d3c49;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0; 
 }
 
-header, nav, footer, section, article, div {
+header,
+nav,
+footer,
+section,
+article,
+div {
   box-sizing: border-box;
 }
 
@@ -25,7 +35,10 @@ ul {
   margin: 0;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -102,7 +115,7 @@ main {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("./images/source-code.png");
+  background-image: url("../img/source-code.png");
   background-size: cover;
   height: 300px;
 }
